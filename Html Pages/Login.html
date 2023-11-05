@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="mutual items.css">
+    <script src="javascript/main.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div class="top-navigation">
+
+        <section class="logo">
+            <a href="#" target="_self">
+                <img src="https://png.pngtree.com/png-clipart/20221215/ourmid/pngtree-israel-flag-in-watercolor-hard-brush-new-png-image_6525009.png" alt="Logo">
+            </a>
+        </section>
+
+        <nav class="main-menu">
+            <a href="#" target="_self">
+                <p>על האתר</p>
+            </a>
+            <a href="#" target="_self">
+                <p>תמונות</p>
+            </a>
+            <a href="stories.html" target="_self">
+                <p>סיפורים</p>
+            </a>
+            <a href="Main Page.html" target="_self">
+                <p>בית</p>
+            </a>
+        </nav>
+    </div>
+
+    <div id="g_id_onload"
+        data-client_id="77414351632-v3naq3pbs4fn8cg2gcr0gk2gs9uvf0j9.apps.googleusercontent.com"
+        data-callback="handleCredentialResponse">
+        <div class="g_id_signin" data-type="standard"></div>
+        <div style="width: 100%; height: 20px; border-bottom: 2px solid rgb(27, 27, 27); text-align: center">
+            <span style="font-size: 20px; background-color: #333; padding: 20px 10px; color:rgb(27, 27, 27)">
+              or
+            </span>
+          </div>
+        <input type="text" id="username" placeholder="Username">
+        <input type="text" id="password" placeholder="Password">
+        <button type="submit" id="login-button">Login and Continue</button>
+    </div>
+    
+</body>
+</html>
