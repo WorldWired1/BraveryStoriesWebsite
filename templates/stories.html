@@ -1,0 +1,47 @@
+{% extends "base_page.html" %}
+
+{% block links %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/stories.css') }}">
+{% endblock %}
+
+{% block content %}
+<header class="dark-background">
+    <button id="posts-button">All Posts</button>
+    <div class="top-right">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <p style="font-size: 18px; padding-left: 20px; color:rgb(171, 171, 171)">🔍︎</p>
+        </div>
+
+        <a href="{{ url_for('login') }}">
+            <button id="login-button">
+                Login / Sign Up
+            </button>
+        </a>
+    </div>
+</header>
+
+<main>
+    <section class="posts-container">
+        <div class="posts">
+            <div class="center-content">
+                <div class="post-message">
+                    <h2>Check back soon</h2>
+                    <p>Once posts are published, they are displayed here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+    document.getElementById('search-icon').addEventListener('click', function () {
+        var searchInput = document.getElementById('search-input');
+        var searchIcon = document.getElementById('search-icon');
+        if(searchInput.style.display === "none")
+        {
+            searchInput.style.display = "inline-block"
+        }
+    });
+</script>
+{% endblock %}
