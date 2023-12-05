@@ -38,7 +38,7 @@
                 <input type="text" id="search-input" placeholder="Search...">
                 <p style="font-size: 18px; padding-left: 20px; color:rgb(171, 171, 171)">🔍︎</p>
             </div>
-            <button id="login-button">Login / Sign Up</button>
+            <a id="login-button" href="Login.html">Login / Sign Up</a>
         </div>
     </header>
     
@@ -54,16 +54,5 @@
             </div>
         </section>
     </main>
-
-    <script>
-        document.getElementById('search-icon').addEventListener('click', function () {
-            var searchInput = document.getElementById('search-input');
-            var searchIcon = document.getElementById('search-icon');
-            if(searchInput.style.display === "none")
-            {
-                searchInput.style.display = "inline-block"
-            }
-        });
-    </script>
 </body>
 </html>

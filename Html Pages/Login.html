@@ -39,10 +39,13 @@
             <span style="font-size: 20px; background-color: #333; padding: 20px 10px; color:rgb(27, 27, 27)">
               or
             </span>
-          </div>
-        <input type="text" id="username" placeholder="Username">
-        <input type="text" id="password" placeholder="Password">
-        <button type="submit" id="login-button">Login and Continue</button>
+        </div>
+        <form action="/login" method="post">
+            <input type="text" id="username" name="username" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <button type="submit" id="login-button">Login and Continue</button>
+        </form>
+        
         <a id="register" href="Register.html">DON'T HAVE AN ACCOUNT?</a>
     </div>
 </body>
