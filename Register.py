@@ -35,7 +35,7 @@ def register():
         with connection.cursor() as cursor:
             # Check if the username already exists in the database
             sql_check_user = 'SELECT * FROM users WHERE username = %s'
-            cursor.execute(sql_check_user, (Username,))
+            cursor.execute(sql_check_user, (Username))
             existing_user = cursor.fetchone()
 
             if existing_user:
