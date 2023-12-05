@@ -1,0 +1,112 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strength Of Israel</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mutual items.css">
+    <script src="javascript/main.js"></script>
+</head>
+
+<body>
+
+    <div class="top-navigation">
+
+        <section class="logo">
+            <a href="#" target="_self">
+                <img src="https://png.pngtree.com/png-clipart/20221215/ourmid/pngtree-israel-flag-in-watercolor-hard-brush-new-png-image_6525009.png" alt="Logo">
+            </a>
+        </section>
+
+        <nav class="main-menu">
+            <a href="#" target="_self">
+                <p>על האתר</p>
+            </a>
+            <a href="#" target="_self">
+                <p>תמונות</p>
+            </a>
+            <a href="stories.html" target="_self">
+                <p>סיפורים</p>
+            </a>
+            <a href="Main Page.html" target="_self">
+                <p>בית</p>
+            </a>
+        </nav>
+    </div>
+
+    <section style="height: 700px; display: flex; flex-direction: column;">
+
+        <div id="photo-container" class="photo-container">
+
+            <div class="photo-wrapper">
+                <div class="main-photo">
+                    <img class="main-photos" src="https://img.mako.co.il/2023/10/08/OFAKIM_0810_re_autoOrient_i.jpg">
+                </div>
+                <a href="#" target="_self" class="info-buttons">דוד ורחל</a>
+            </div>
+
+            <div class="photo-wrapper">
+                <div class="main-photo">
+                    <img class="main-photos" src="https://img.mako.co.il/2020/08/11/08_MIRIYAM_ALISTER_W_i.jpg">
+                </div>
+                <a href="#" target="_self" class="info-buttons">אזרחי ישראל</a>
+            </div>
+
+            <div class="photo-wrapper">
+                <div class="main-photo">
+                    <img class="main-photos" src="https://sharonline.co.il/wp-content/uploads/2023/10/yair-golan-08102023-1-h.jpg">
+                </div>
+                <a href="#" target="_self" class="info-buttons">יאיר גולן</a>
+            </div>
+
+            <div class="photo-wrapper">
+                <div class="main-photo">
+                    <img class="main-photos" src="https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,w_500/871624">
+                </div>
+                <a href="#" target="_self" class="info-buttons">ענבל ליברמן</a>
+            </div>
+
+        </div>
+    </section>
+    
+    <section data-testid="columns" class="main-sections" style="background: linear-gradient(to right, #5cc9ff, #215e72); height: 650px">
+
+        <div>
+            <img src="https://static.wixstatic.com/media/a82695_7b82c1ff9d6643daab6adf02ba6ee5fb~mv2.jpg/v1/fill/w_440,h_460,al_c,lg_1,q_80,enc_auto/IDF.jpg" alt="IDF.jpg" width="460" height="480" srcset="https://static.wixstatic.com/media/a82695_7b82c1ff9d6643daab6adf02ba6ee5fb~mv2.jpg/v1/fill/w_440,h_460,al_c,lg_1,q_80,enc_auto/IDF.jpg 1x, https://static.wixstatic.com/media/a82695_7b82c1ff9d6643daab6adf02ba6ee5fb~mv2.jpg/v1/fill/w_440,h_460,al_c,lg_1,q_80,enc_auto/IDF.jpg 2x" fetchpriority="high" class="imgstyle" />
+        </div>
+                                       
+        <div data-hook="bgLayers" class="text-container">
+
+                <div>
+                    <h2 class="text" style="font-size: 30px; font-weight: bold;" ><span class="title">חרבות ברזל</span></h2>
+                </div>
+
+                <div>
+                    <div class="style-26">
+                    <h2 class="text" style="font-size: 20px; font-weight: bold; line-height: 70px;">בימים הקשים, הגיבורים כאן</h2>
+                </div>
+
+                <div>
+                    <p class="text">ב- 7.10.2023 פרצה מלחמה.</p>
+                    <p class="text">מחבלי חמאס פרצו את הגדר, והחלו להלום באזרחים וחיילים.</p>
+                    <p class="text">גיבורים רבים פעלו מיידית, לא חשבו בכלל ויצאו להילחם ברוע שפקד ביום שבת.</p>
+                    <p class="text">בגל הרוע קיים אור חזק, אלו גיבורי ישראל.</p>
+                    <p class="text">נכתוב עליהם כאן כדי להראות לעולם, לחמאס, לארצות האויב ובעיקר לעצמינו - שאנחנו חזקים.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div style="height: 70px; background-color: #191919;">
+            <p class="text" style="text-align: center; padding: 20px; margin: 0"> האנשים הטובים של ישראל</p>
+        </div>
+
+        <div style="height: 70px; background-color: #191919;">
+            <p class="text" style="text-align: center; margin: 0;"> TheStrengthOfIsrael @2023</p>
+        </div>
+
+    </section>
+</body>
+</html>
